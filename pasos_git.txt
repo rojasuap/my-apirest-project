@@ -1,0 +1,27 @@
+Limpiar consola de git. control + L
+
+Comandos para loguar git
+$ git config --global user.name "Emma Paris"
+$ git config --global user.email "eparis@atlassian.com"
+
+
+
+
+
+Forma Manual por comandos, entiendo que hay la forma de crarlo con alguna herramienta.
+
+Paso 1. Crear repositorio en github.
+Paso 2. Clonar el proyecto. -> git clone https://github.com/rojasuap/my-apirest-project.git
+
+	Otros Pasos. 	echo "# my-apirest-project" >> README.md
+			git add README.md o todo los archivos (.)
+		     	git commit -m "first commit"
+		     	git branch -M main
+		     	git remote add origin https://github.com/rojasuap/my-apirest-project.git
+		     	git push -u origin main
+
+			
+
+Paso 3. Iniciar Gir. -> git init
+Paso 4. Verificar y crear rama developer -> git checkout develop
+Paso 5. 
